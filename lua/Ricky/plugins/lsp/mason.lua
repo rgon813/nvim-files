@@ -35,6 +35,7 @@ return {
 				"lua_ls",
 				"graphql",
 				"emmet_ls",
+				"eslint",
 				"golangci_lint_ls",
 				"tflint",
 				"terraformls",
@@ -50,7 +51,7 @@ return {
 				"prettier", -- prettier formatter
 				"stylua", -- lua formatter
 				"pylint", -- python linter
-				"eslint_d", -- js linter
+				"eslint", -- js linter
 				"golangci_lint_ls",
 				"tflint",
 				"quick_lint_js",

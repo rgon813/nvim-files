@@ -7,19 +7,19 @@ return {
 
 		conform.setup({
 			formatters_by_ft = {
-				javascript = { "prettier" },
-				typescript = { "prettier" },
-				javascriptreact = { "prettier" },
-				typescriptreact = { "prettier" },
+				javascript = { "eslint", "prettier" },
+				typescript = { "eslint", "prettier" },
+				javascriptreact = { "eslint", "prettier" },
+				typescriptreact = { "eslint", "prettier" },
 				svelte = { "prettier" },
 				css = { "prettier" },
 				html = { "prettier" },
 				json = { "prettier" },
-				yaml = { "yamlfix", "prettier" },
+				yaml = { "prettier" },
 				markdown = { "prettier" },
 				graphql = { "prettier" },
 				lua = { "stylua" },
-				go = { "gofmt" },
+				go = { "goimports", "golines", "gofmt", "gopls" },
 				terraform = { "terraform_fmt" },
 			},
 			format_on_save = {
