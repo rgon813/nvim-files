@@ -7,10 +7,10 @@ return {
 
 		conform.setup({
 			formatters_by_ft = {
-				javascript = { "eslint", "prettier" },
-				typescript = { "eslint", "prettier" },
-				javascriptreact = { "eslint", "prettier" },
-				typescriptreact = { "eslint", "prettier" },
+				javascript = { "eslint_d", "prettier" },
+				typescript = { "eslint_d", "prettier" },
+				javascriptreact = { "eslint_d", "prettier" },
+				typescriptreact = { "eslint_d", "prettier" },
 				svelte = { "prettier" },
 				css = { "prettier" },
 				html = { "prettier" },
