@@ -77,6 +77,7 @@ return {
 		})
 
 		lspconfig["golangci_lint_ls"].setup({
+			root_dir = require("lspconfig").util.root_pattern("go.mod"),
 			capabilities = capabilities,
 			on_attach = on_attach,
 		})
