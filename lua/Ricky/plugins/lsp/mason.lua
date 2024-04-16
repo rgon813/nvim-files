@@ -36,6 +36,7 @@ return {
 				"graphql",
 				"emmet_ls",
 				"eslint",
+				"gopls",
 				"golangci_lint_ls",
 				"tflint",
 				"terraformls",
@@ -48,11 +49,21 @@ return {
 
 		mason_tool_installer.setup({
 			ensure_installed = {
+				"prettierd", -- prettier formatter
 				"prettier", -- prettier formatter
 				"stylua", -- lua formatter
 				"pylint", -- python linter
 				"eslint", -- js linter
+
+				"goimports-reviser",
+				"gopls",
+				"golines",
+				"goimports",
+				"gofumpt",
+				"revive",
+				"golangci-lint",
 				"golangci_lint_ls",
+
 				"tflint",
 				"quick_lint_js",
 				"tsserver",

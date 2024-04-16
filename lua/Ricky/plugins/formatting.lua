@@ -19,7 +19,7 @@ return {
 				markdown = { "prettier" },
 				graphql = { "prettier" },
 				lua = { "stylua" },
-				go = { "goimports", "golines", "gofmt", "gopls" },
+				go = { "gofumpt", "gopls", "goimports", "goimports-reviser", "golines" },
 				terraform = { "terraform_fmt" },
 			},
 			format_on_save = {
