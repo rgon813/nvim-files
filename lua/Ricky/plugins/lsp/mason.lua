@@ -31,16 +31,13 @@ return {
 				"html",
 				"cssls",
 				"tailwindcss",
-				"svelte",
 				"lua_ls",
-				"graphql",
-				"emmet_ls",
 				"eslint",
 				"gopls",
 				"golangci_lint_ls",
 				"tflint",
+				"sqls",
 				"terraformls",
-				"quick_lint_js",
 				"tsserver",
 			},
 			-- auto-install configured servers (with lspconfig)
@@ -50,10 +47,9 @@ return {
 		mason_tool_installer.setup({
 			ensure_installed = {
 				"prettierd", -- prettier formatter
-				"prettier", -- prettier formatter
-				"stylua", -- lua formatter
 				"pylint", -- python linter
-				"eslint", -- js linter
+				"eslint_d", -- js linter
+				"stylelint", -- css linter
 
 				"goimports-reviser",
 				"gopls",
@@ -61,14 +57,6 @@ return {
 				"goimports",
 				"gofumpt",
 				"revive",
-				"golangci-lint",
-				"golangci_lint_ls",
-
-				"tflint",
-				"quick_lint_js",
-				"tsserver",
-				"yamlls",
-				"yamlfix",
 			},
 		})
 	end,
